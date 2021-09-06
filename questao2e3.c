@@ -81,6 +81,13 @@ int main(){
 	nossaFila.atras = 0;
 
 	// Chame aqui os metodos para testar.
+	
+	inserirItemFila(&nossaFila, 5);
+	inserirItemFila(&nossaFila, 6);
+	inserirItemFila(&nossaFila, 7);
+	inserirItemFila(&nossaFila, 10);
+	
+	listarElementos(&nossaFila);
 
 	return 0;
 }
