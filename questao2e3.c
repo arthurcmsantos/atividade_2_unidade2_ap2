@@ -71,7 +71,7 @@ void listarElementos(struct fila *nossaFila){
 	int i;
 	printf("=================Itens da Fila===========\n");
 	for(i = 0; i < tamanho; i++){
-		printf("Posicao %d item: %d", i+1, nossaFila->itens[i]);
+		printf("Posicao %d item: %d/n", i+1, nossaFila->itens[i]);
 	}
 }
 
